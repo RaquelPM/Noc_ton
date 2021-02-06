@@ -1,0 +1,78 @@
+.mt-6{
+    margin-top: 25%;
+}
+
+.m-ye{
+    margin-bottom: 42px;
+}
+
+.m-red{
+    margin-bottom: 54px;  
+}
+
+.m-blue{
+    margin-bottom: 74px;
+}
+
+.m-blue_light{
+    margin-bottom: 64px;
+}
+
+.total{
+    width: 100vw;
+    height: 100vh;
+}
+
+.ajuste{
+    text-align:center;
+}
+
+.ajuste_t_blue{
+    color:#058ED9;
+}
+
+.ajuste_t_ye{
+    color:#FFD600;
+}
+
+.ajuste_t_pur{
+    color:#6C32B2;
+}
+
+.ajuste_t_red{
+    color: #FF0035;
+}
+
+.ajuste_t_agua{
+    color:#3DDC97;
+}
+
+.ajuste_t_white{
+    color:white;
+}
+
+.ajuste_t_cin{
+    color:#1E152A;
+}
+
+@media (min-width: 500px){
+    .m-ye{
+        margin-bottom: 63px;
+    }
+
+    .m-red{
+        margin-bottom: 81px;  
+    }
+
+    .m-blue{
+        margin-bottom: 111px;
+    }
+
+    .m-blue_light{
+        margin-bottom: 96px;
+    }
+}
+
+
+
+

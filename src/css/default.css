@@ -1,0 +1,275 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: white;
+    color: black;
+    overflow-x: hidden; 
+} 
+
+#texto_no_claro{
+    width: 55%;
+}
+
+#flutuantes{
+    width: 105%;
+}
+
+.clicavel{
+    cursor: pointer;
+}
+
+.titulo{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-size: 26px;
+}
+
+.pergunta{
+    font-family: 'Comfortaa';
+    font-style: bold;
+    font-size: 23px;
+}
+
+.texto{
+    font-family: 'Comfortaa';
+    font-style: bold;
+    font-size: 15px;
+    color:#4F4759;
+}
+
+#ex{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#head_b{
+    width:0px;
+}
+
+#head_d{
+    width:90px;
+}
+
+#logo_escura{
+    width: 0px !important;
+}
+
+#logo_clara_pequena{
+    width: 170px;
+}
+
+#logo_escura_pequena{
+    width: 0px;
+}
+
+#logo_estreita_clara{
+    width: 100px;
+}
+
+#logo_estreita_escura{
+    width: 0px;;
+}
+
+#retangulo_cubo_preto{
+    width: 120px;
+    margin-bottom: 64px;
+}
+
+#retangulo_cubo_claro{
+    width:0px;
+}
+
+#container_img{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        'img_1'
+        'img_2'
+        'img_3'
+    ;
+}
+
+#img_1{
+    grid-area: img_1;
+}
+
+#img_2{
+    grid-area: img_2;
+}
+
+#img_3{
+    grid-area: img_3;
+}
+
+#container_inte{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        'inter_1 inter_2'
+        'inter_3 inter_4'
+    ;
+}
+
+#inte_1{
+    grid-area: inter_1;
+}
+
+#inte_2{
+    grid-area: inter_2;
+}
+
+#inte_3{
+    grid-area: inter_3;
+}
+
+#inte_4{
+    grid-area: inter_4;
+}
+
+#container_ani_quad{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        'ani'
+        'text_ani'
+    ;
+}
+
+#div_ani_quad{
+    grid-area:ani;
+}
+
+#text_ani{
+    grid-area:text_ani;
+    text-align:center;
+}
+
+@media (min-width: 500px){
+    .titulo{
+        font-size:40px;
+    }
+    .texto{
+        font-size:20px
+    }
+    #text_ani{
+        text-align:left;
+    }
+    #ex{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    #ex_apps{
+        width: 50%;
+    }
+
+    #ex_sites{
+        width: 50%;
+    }
+
+    #texto_no_claro{
+        width:25%!important;
+    }
+
+    #container_img{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 33% 35% 31%;
+        grid-template-areas: 
+            'img_1 img_2 img_3'
+        ;
+    }
+
+    #container_inte{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+            'inter_1 inter_2 inter_3 inter_4'
+        ;
+    }
+
+    #container_ani_quad{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 40% 60%;
+        grid-template-areas: 
+            'ani text_ani'
+        ;
+    }
+
+    #img_2{
+       margin-left: 13px;
+    }
+
+
+}
+
+@media (min-width:1000px){
+    #qm_somos_text{
+        width: 90%;
+    }
+    #flutuantes{
+        width: 98%;
+        margin-bottom: 4%;
+    }
+    #ani_quad{
+        width: 110%;
+    }
+    #text_ani{
+        text-align: center;
+        margin-right: 100px;
+    }
+    #text_sonhos{
+        width: 50%;
+    }
+
+    #appsesites{
+        text-align: center !important;
+    }
+
+    #retangulo_red{
+        width: 20%;
+        height:30%;
+    }
+
+
+    .link{
+        font-size:18px !important;
+    }
+
+    .troço_cinza{
+        width: 429px;
+        height: 315px;
+    }
+
+    .troço_cinza_redondo{
+        width: 135px;
+        height: 135px;
+        border-radius: 100px;
+    }
+
+    .div_teste{
+        width:200px;
+        height:115px;
+    }
+
+    .nome{
+        margin-top: 65px !important;
+    }
+
+    #nameandp{
+        margin-right: 50px !important;
+    }
+
+    #nameandr{
+        margin-right: 30px !important;
+    }
+}
+

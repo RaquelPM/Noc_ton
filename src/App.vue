@@ -1,10 +1,19 @@
 <template>
   <div id="app">
-    <transition name="fade">
-      <router-view/>
-    </transition>
+    <home/>
   </div>
 </template>
+
+<script>
+
+import home from './views/Home.vue'
+
+export default{
+  components:{
+    home,
+  }
+}
+</script>
 
 <style>
 #app {

@@ -1,0 +1,85 @@
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: #1E152A;
+      color: #f0ece2;
+    } 
+  
+    img {
+      filter: brightness(0.9);
+    }
+
+    #head_d{
+      width:0px;
+    }
+
+    #head_b{
+      width:90px;
+    }
+
+    #logo_branca{
+      max-width: 0px;
+    }
+
+    #envelopinho{
+      width: 0px;
+    }
+
+    #logo_escura{
+      min-width: 300px;
+      margin-bottom: 20px;
+    }
+
+    #logo_clara_pequena{
+      width: 0px;
+    }
+
+    #logo_escura_pequena{
+      width: 170px;
+    }
+
+    #logo_estreita_clara{
+      width: 0px;
+    }
+
+    #logo_estreita_escura{
+      width: 100px;
+    }
+
+    #retangulo_cubo_preto{
+      width:0px;
+      margin-bottom: 0px;
+    }
+
+    #retangulo_cubo_claro{
+      width:120px;
+      margin-bottom: 64px;
+    }
+
+    .texto{
+      color: rgba(255, 255, 255, 0.75);
+    }
+
+    .cinza{
+      background: #FBF9FF;
+    }
+
+    .entre{
+      color:#1E152A;
+    }
+  
+    .email{
+      background: #1E152A;
+    }
+
+    .ajuste_t_cin{
+      color: rgba(255, 255, 255, 0.43) !important;
+    }
+  }
+
+  @media(min-width:1000px){
+    .aberto{
+      transition: height  0.5s;
+      overflow: hidden;
+      height : 300px;
+}
+  }
