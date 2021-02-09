@@ -1,5 +1,5 @@
 <template>
-    <div class="d-flex justify-content-center align-items-center flex-column mx-3">
+    <div id="tudo" class="d-flex justify-content-center align-items-center flex-column mx-3">
         <p class="m-ye pergunta">Quem somos?</p>
         <div  class="d-flex justify-content-center align-items-center flex-column">
             <canvas id="flutuantes" class="mr-2"></canvas>
@@ -157,5 +157,9 @@
 <style>
 #parte_d_cima{
     line-height:20px !important;
+}
+
+#qm_somos_text,#tudo{
+    max-width:1300px;
 }
 </style>

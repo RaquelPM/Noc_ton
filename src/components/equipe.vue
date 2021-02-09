@@ -9,8 +9,8 @@
             <div id="inte_1" class="d-flex flex-column mx-3 mb-5 align-items-end">
                 <div @click="pot_petrus" class="div_teste d-flex justify-content-end clicavel">
                     <canvas class="position-absolute" id="img_petrus"></canvas>
-                    <img id="figura_petrus" class="position-absolute" src="../assets/escada_roxa_p.svg"/>
-                    <div class="troço_cinza_redondo mr-3 mt-4"></div>
+                    <img id="figura_petrus" src="../assets/escada_roxa_p.svg"/>
+                    <div src="@/assets/integrantes/petrus.jpg" class="troço_cinza_redondo mr-3 mt-4"></div>
                 </div>
                 <div id="nameandp" class="d-flex flex-column align-items-center mr-4">
                     <p class="nome mt-3">Petrus</p>
@@ -142,7 +142,7 @@ export default{
     },
     methods:{
         pot_petrus(){
-            window.location.href='https://petrus.codes';
+            window.open('https://petrus.codes', '_blank');
         }
     }
 }
@@ -161,7 +161,11 @@ export default{
         width: 90px;
         height: 90px;
         border-radius:50px;
-        background: #C4C4C4;
+    }
+
+    .foto{
+        background: url("/@/assets/integrantes/petrus.jpg");
+        background-size: 300px 100px;
     }
 
     .div_teste{

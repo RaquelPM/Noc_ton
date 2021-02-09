@@ -5,9 +5,9 @@
             <p class="texto m-red entre mt-5">Entre em contato</p>
             <img id="envelopinho" @click="copy" class="clicavel" src="../assets/envelope-b.svg"/>
             <img @click="copy" class="clicavel" src="../assets/envelope-p.svg" />
-            <textarea id="f" ref="copiar" class="mb-1">Contato@nocton.tech</textarea>
+            <textarea id="f" ref="copiar" class="mb-1">contato@nocton.tech</textarea>
             <div @click="copy" class="email titulo m-blue d-flex">
-                <p class="mt-3 ml-4">Contato</p>
+                <p class="mt-3 ml-4">contato</p>
                 <p class="mt-3 ajuste_t_blue">@</p>
                 <p class="mt-3">nocton</p>
                 <p class="mt-3 mr-3 ajuste_t_blue">.tech</p>

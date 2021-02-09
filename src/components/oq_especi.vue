@@ -114,6 +114,7 @@
     border-left: 12px solid #FF0035;
     border-right: 12px solid #FF0035;
     margin-bottom:48px;
+    max-width:150px;
 }
 
 #maozin, #maozina, #mouse_branco, #mouse_preto{

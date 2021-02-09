@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="d-flex justify-content-center align-items-center">
     <home/>
   </div>
 </template>
