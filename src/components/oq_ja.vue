@@ -3,9 +3,9 @@
     <p class="pergunta m-ye">O que já fizemos</p>
     <p class="titulo m-red ajuste_t_pur" >Portifólio</p>
     <div id="container_img">
-      <img id="img_1" v-on:click="redirecionar(repos[0].html_url)" class=" clicavel troço_cinza m-blue_light"/>
-      <img id="img_2" v-on:click="redirecionar(repos[1].html_url)" class="clicavel troço_cinza m-blue_light"/>
-      <img id="img_3" v-on:click="redirecionar(repos[3].html_url)" class="clicavel troço_cinza m-blue_light"/>
+      <img src="@/assets/projetos_img/checa.jpeg" id="img_1" v-on:click="redirecionar(repos[0].html_url)" class=" clicavel troço_cinza m-blue_light"/>
+      <img src="@/assets/projetos_img/seuchef.jpeg" id="img_2" v-on:click="redirecionar(repos[1].html_url)" class="clicavel troço_cinza m-blue_light"/>
+      <img  src="@/assets/projetos_img/cidade.jpeg" id="img_3" v-on:click="redirecionar(repos[3].html_url)" class="clicavel troço_cinza m-blue_light"/>
     </div>
     <div>
     </div>

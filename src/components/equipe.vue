@@ -10,7 +10,7 @@
                 <div @click="pot_petrus" class="div_teste d-flex justify-content-end clicavel">
                     <canvas class="position-absolute" id="img_petrus"></canvas>
                     <img id="figura_petrus" src="../assets/escada_roxa_p.svg"/>
-                    <div src="@/assets/integrantes/petrus.jpg" class="troço_cinza_redondo mr-3 mt-4"></div>
+                    <div class="troço_cinza_redondo mr-3 mt-4 foto_petrus"></div>
                 </div>
                 <div id="nameandp" class="d-flex flex-column align-items-center mr-4">
                     <p class="nome mt-3">Petrus</p>
@@ -22,7 +22,7 @@
                 <div class="div_teste d-flex justify-content-center">
                     <canvas class="position-absolute" id="img_adson"></canvas>
                     <img id="figura_adson" class="position-absolute" src="../assets/ele_vermelho_a.svg"/>
-                    <div class="troço_cinza_redondo ml-5 mt-4"></div>
+                    <div class="troço_cinza_redondo ml-5 mt-4 foto_adson"></div>
                 </div>
                 <div id="nameandp" class="d-flex flex-column align-items-center mr-2">
                     <p class="nome mt-3">Adson</p>
@@ -34,7 +34,7 @@
                 <div class="div_teste d-flex justify-content-center ">
                     <canvas class="position-absolute" id="img_raquel"></canvas>
                     <img id="figura_raquel" class="position-absolute" src="../assets/escada_amarela_r.svg"/>
-                    <div class="troço_cinza_redondo ml-5 mt-3"></div>
+                    <div class="troço_cinza_redondo ml-5 mt-3 foto_raquel"></div>
                 </div>
                 <div id="nameandr" class="d-flex flex-column align-items-center mr-2">
                     <p class="nome mt-3">Raquel</p>
@@ -46,7 +46,7 @@
                 <div class="div_teste d-flex justify-content-center">
                     <canvas class="position-absolute" id="img_paulo"></canvas>
                     <img id="figura_paulo" src="../assets/ele_verde_pa.svg"/>
-                    <div class="troço_cinza_redondo ml-5 mt-3"></div>
+                    <div class="troço_cinza_redondo ml-5 mt-3 foto_paulo"></div>
                 </div>
                 <div id="nameandr" class="d-flex flex-column align-items-center mr-2">
                     <p class="nome mt-3">Paulo</p>
@@ -163,9 +163,27 @@ export default{
         border-radius:50px;
     }
 
-    .foto{
-        background: url("/@/assets/integrantes/petrus.jpg");
-        background-size: 300px 100px;
+    .foto_petrus{
+        background-image:url("../assets/integrantes/petrus.jpg");
+        background-size: 90px 90px;
+        background-position: -5px 5px;
+    }
+
+    .foto_adson{
+        background-image:url("../assets/integrantes/adson.jpg");
+        background-size: 90px 90px;
+        background-position: 20px
+    }
+
+    .foto_raquel{
+        background-image:url("../assets/integrantes/eu.jpeg");
+        background-size: 90px 90px;
+        background-position: 0px 8px;
+    }
+
+    .foto_paulo{
+        background-image:url("../assets/integrantes/paulo.jpeg");
+        background-size: 90px 90px;
     }
 
     .div_teste{

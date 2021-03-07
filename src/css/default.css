@@ -150,6 +150,7 @@ body {
 }
 
 @media (min-width: 500px){
+
     .titulo{
         font-size:40px;
     }
@@ -212,6 +213,12 @@ body {
 }
 
 @media (min-width:1000px){
+
+    .foto_petrus, .foto_paulo, .foto_raquel, .foto_adson{
+        background-size: 135px 135px;
+    }
+
+
     #qm_somos_text{
         width: 90%;
     }

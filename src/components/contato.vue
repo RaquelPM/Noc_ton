@@ -46,7 +46,7 @@ export default{
         canvas.width =  innerWidth
         if(innerWidth<=500){canvas.height =  65}
         else if(innerWidth<=950){canvas.height = 68}
-        else{canvas.height =  100}
+        else{canvas.height =  95}
         const ctx = canvas.getContext("2d");  
 
         let increment = 0.01;
