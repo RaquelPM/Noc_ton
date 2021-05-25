@@ -11,34 +11,37 @@
     </div>
 
     <div v-bind:class="{fechado:!aberto, aberto:aberto}" class="position-fixed flex-column fixed-bottom d-flex justify-content-end align-items-end mb-5">
-      <div id="texto_no_claro" v-bind:class="{sumiu:!aberto, apareceu:aberto}" class="d-flex texto flex-column mr-3">
-        <div class="d-flex">
-          <img class="mb-1 mr-2" src="../assets/pontos/ponto_blue.svg"/>
-          <a href="#qmsomos" class="link mb-1 azul" >Quem somos?</a>
-        </div>
-        <div>
-          <img class="mb-1 mr-2" src="../assets/pontos/ponto_amarelo.svg"/>
-          <a href="#oqfazemos" class="link mb-1 amarelo">O que fazemos?</a>
-        </div>
-        <div class="d-flex">
-          <img class="mb-1 mr-2" src="../assets/pontos/ponto_vermelho.svg"/>
-          <div class="d-flex flex-column" >
-            <a href="#oqespeci" class="link vermelho">O que especificadamente</a>
-            <p class="link vermelho mb-1">fazemos</p>
+      <div id="texto_no_claro" v-bind:class="{sumiu:!aberto, apareceu:aberto}" class="d-flex texto flex-column mr-5">
+        <div class="d-flex flex-column balon">
+          <div class="d-flex ml-2 mt_balon">
+            <img class="mb-1 mr-2" src="../assets/pontos/ponto_blue.svg"/>
+            <a href="#qmsomos" class="link mb-1 azul" >Quem somos?</a>
           </div>
-        </div>
-        <div>
-          <img class="mb-1 mr-2" src="../assets/pontos/ponto_roxo.svg"/>
-          <a href="#oqja" class="link mb-1 roxo" >O que ja fizemos.</a>
-        </div>
-        <div>
-          <img class="mb-1 mr-2" src="../assets/pontos/ponto_colorido.svg"/>
-          <a href="#equipe" class="link mb-1 texto" >Equipe Noc.ton</a>
-        </div>
-        <div>
-          <img class="mb-1 mr-2" src="../assets/pontos/ponto_verde.svg"/>
-          <a href="#contato" class="link verde" >Contato</a>
-        </div>
+          <div class="ml-2">
+            <img class="mb-1 mr-2" src="../assets/pontos/ponto_amarelo.svg"/>
+            <a href="#oqfazemos" class="link mb-1 amarelo">O que fazemos?</a>
+          </div>
+          <div class="d-flex ml-2">
+            <img class="mb-1 mr-2" src="../assets/pontos/ponto_vermelho.svg"/>
+            <div class="d-flex flex-column" >
+              <a href="#oqespeci" class="link vermelho">O que especificadamente</a>
+              <p class="link vermelho mb-1">fazemos</p>
+            </div>
+          </div>
+          <div class="ml-2">
+            <img class="mb-1 mr-2" src="../assets/pontos/ponto_roxo.svg"/>
+            <a href="#oqja" class="link mb-1 roxo" >O que ja fizemos.</a>
+          </div>
+          <div class="ml-2">
+            <img class="mb-1 mr-2" src="../assets/pontos/ponto_blue.svg"/>
+            <a href="#equipe" class="link mb-1 azul" >Equipe Noc.ton</a>
+          </div>
+          <div class="ml-2">
+            <img class="mb-1 mr-2" src="../assets/pontos/ponto_verde.svg"/>
+            <a href="#contato" class="link verde" >Contato</a>
+          </div>
+        <div/>
+      </div>
       </div>
       <div @click="abrir" class="mr-3">
         <img id="head_b" class="clicavel" src="../assets/head_b.svg"/>
@@ -138,17 +141,17 @@ a:hover {
 .aberto{
   transition: height  0.5s;
   overflow: hidden;
-  height : 250px;
+  height : 310px;
 }
 
 .sumiu{
-  -webkit-transition: opacity 0.7s;
+  -webkit-transition: opacity 0.5s;
   overflow: hidden;
   opacity: 0;
 }
 
 .apareceu{
-  transition: opacity  0.9s;
+  transition: opacity  0.5s;
   overflow: hidden;
   opacity : 1;
 }

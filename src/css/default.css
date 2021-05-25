@@ -7,6 +7,18 @@ body {
     overflow-x: hidden; 
 } 
 
+.balon{
+    background-image:url("../assets/balon_branco.svg");
+    background-repeat: no-repeat;
+    background-size: 210px;
+    background-position: -5px;
+    height:300px;
+}
+
+.mt_balon{
+    margin-top: 8px;
+}
+
 #texto_no_claro{
     width: 55%;
 }
@@ -213,6 +225,23 @@ body {
 }
 
 @media (min-width:1000px){
+
+    .balon{
+        background-repeat: no-repeat;
+        background-size: 290px;
+        background-position: -5px;
+        height:400px;
+    }
+
+    .mt_balon{
+        margin-top: 35px;
+    }
+
+    .aberto{
+        transition: height  0.5s;
+        overflow: hidden;
+        height : 400px;
+    }
 
     .foto_petrus, .foto_paulo, .foto_raquel, .foto_adson{
         background-size: 135px 135px;

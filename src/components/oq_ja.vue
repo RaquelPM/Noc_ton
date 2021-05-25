@@ -41,6 +41,7 @@ export default {
 .troço_cinza{
   width: 270px;
   height: 200px;
+  object-fit: cover;
   border:solid 2px #6C32B2;
 }
 
